@@ -1,6 +1,45 @@
+var startButton = document.querySelector("#quiz-start");
+var timer = document.getElementById("#time-Left")
+
+
+
+startButton.addEventListener("click", function(event) {  
+
+    startButton.style.display = "none";
+    quizTime();
+    // have A B C D buttons display now
+
+});
+
+
+function quizTime(){
+    var timeLeft = 60;
+    var timeInterval = setInterval(function(){
+        if (timeLeft > 1) {
+            timer.textContent = timeLeft;
+            timeLeft--;
+        }
+        else {
+            clearInterval(timeInterval);
+            // gameOver();
+
+        }
+
+    }, 1000);
+}
+    
+    
+    
+    
+    function gameOver(){
+
+    }
+
+
+
+
 function startQuiz(){
     // start button goes away 
-    // A B C D buttons display
     // time starts & displays countdown
     // quiz header now turns to question
     // a question is picked from list of Q's
