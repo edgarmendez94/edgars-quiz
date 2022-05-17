@@ -15,23 +15,20 @@
 </body>
 <!-- container for main content -->
 <main class="container">
-    <div id="quiz-content">
-      <div id= "quiz">
-        <h2>This is a quiz!</h2>
+  <!-- Quiz start button -->
+  <div> <button id="quiz-start"> Start </button> </div>
+    <div id="quiz" class="hide">
+      <!-- question goes here -->
+      <div id= "quiz-Content" > question </div>
         <!-- For timer -->
-        Time left : <span id="time-Left"></span>
-      </div>
-      <div>
-          <!-- quiz start button -->
-        <button id="quiz-start"> Start </button>
-      </div>
+        <div id="time-Left">Time Left: </div>
       <!-- class for buttons , id for each choice -->
-      <ul class="choices">
-        <li> <button id="buttonA"> A </button> </li>
-        <li> <button id="buttonB"> B </button> </li>
-        <li> <button id="buttonC"> C </button> </li>
-        <li> <button id="buttonD"> D </button> </li>
-      </ul>
+      <div id="choice-buttons" class="choices">
+        <button id="buttonA"> A </button>
+        <button id="buttonB"> B </button> 
+        <button id="buttonC"> C </button> 
+        <button id="buttonD"> D </button> 
+      </div>
       <!-- linking java -->
       <script src="./assets/js/script.js"></script>
     </div>

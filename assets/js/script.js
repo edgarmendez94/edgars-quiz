@@ -1,13 +1,13 @@
 var startButton = document.querySelector("#quiz-start");
-var timer = document.getElementById("#time-Left")
-
+var timerContent = document.getElementById("#time-Left");
+var questionContent = document.getElementById("#quiz");
 
 
 startButton.addEventListener("click", function(event) {  
-
+  
     startButton.style.display = "none";
-    quizTime();
-    // have A B C D buttons display now
+   
+    questionContent.classList.remove("hide");
 
 });
 
@@ -16,7 +16,7 @@ function quizTime(){
     var timeLeft = 60;
     var timeInterval = setInterval(function(){
         if (timeLeft > 1) {
-            timer.textContent = timeLeft;
+            timerContent.textContent = timeLeft;
             timeLeft--;
         }
         else {
