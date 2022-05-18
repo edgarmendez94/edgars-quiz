@@ -3,7 +3,7 @@ My attempt at quiz game!
 
 https://edgarmendez94.github.io/edgars-quiz/
 
-![Alt text](/edgars-quiz/assets/images/Untitled.jpg?raw=true)
+![Alt text](/edgars-quiz/assets/images/Untitled.png?raw=true)
 
 This quiz game (when done correctly) should rely heavly on Java 
 
