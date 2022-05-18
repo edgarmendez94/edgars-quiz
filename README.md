@@ -3,6 +3,8 @@ My attempt at quiz game!
 
 https://edgarmendez94.github.io/edgars-quiz/
 
+![Alt text](/edgars-quiz/assets/images/Untitled.jpg?raw=true)
+
 This quiz game (when done correctly) should rely heavly on Java 
 
 The html is mostly just a prety container that has some of its assets hidden due to the class added to them
